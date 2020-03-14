@@ -18,3 +18,5 @@ The only files/folders you need to customize are:
 - /assets/resume.pdf (don't change the name)
 - /assets/papers/  (put your papers there)
 - /images/
+
+See it live at https://sylvaingchassang.github.io/academic_website/ or https://sylvainchassang.org
