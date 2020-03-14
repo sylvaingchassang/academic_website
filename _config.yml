@@ -33,11 +33,8 @@ plugins:
 title: John A. Smith
 description: John A. Smith | Professor of Statistics | University of Doubt
 
-url: "https://www.yoururl.org"
-# uncomment the line below when deploying the site
-# baseurl: "https://www.yoururl.org"
-# point the base url to your local website folder to serve the site locally
-baseurl: "/workspace/academic_website"
+url: "https://sylvaingchassang.github.io/academic_website"
+baseurl: "https://sylvaingchassang.github.io/academic_website"
 
 # start year for copyright
 start_year: "2000"
