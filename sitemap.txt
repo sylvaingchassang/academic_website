@@ -1,0 +1,5 @@
+---
+title : Sitemap
+---
+{% for page in site.pages %}
+{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endfor %}

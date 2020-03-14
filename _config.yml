@@ -1,0 +1,59 @@
+################################################
+# SETUP
+################################################
+
+permalink: blog/:year/:month/:day/:title
+exclude: ["Makefile", "README.md"]
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#
+analytics:
+    provider: false
+    statcounter:
+        sc_project  :
+        sc_security :
+        sc_invisible: 1
+        sc_text     : 2
+    google:
+        tracking_id: ''
+
+plugins:
+  - jekyll-seo-tag
+
+#################################################
+# CUSTOMIZATION
+#################################################
+
+title: John A. Smith
+description: John A. Smith | Professor of Statistics | University of Doubt
+
+url: "https://www.yoururl.org"
+# uncomment the line below when deploying the site
+# baseurl: "https://www.yoururl.org"
+# point the base url to your local website folder to serve the site locally
+baseurl: "/workspace/academic_website"
+
+# start year for copyright
+start_year: "2000"
+
+colors:
+  background: "#FFFFFF;"
+  separator: "#042352;"
+
+author:
+    name: "John A. Smith"
+
+# manage your co-authors from here
+coauthors:
+  a_adam:
+      name: Alice Adam
+      web: https://www.aliceadamurl.org
+  b_brian:
+      name: Bob Brian
+      web: https://www.robertbrianurl.org
